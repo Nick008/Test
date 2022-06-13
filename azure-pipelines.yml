@@ -17,3 +17,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+  
+# https://docs.microsoft.com/azure/devops/pipelines/ecosystems/xcode
+pool:
+  vmImage: 'macOS-latest'
