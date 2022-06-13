@@ -18,7 +18,7 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
   
-  jobs:
+jobs:
   # - template: "template/iOS/cicd-iOS-xcode.yml@manao-devops"
   #   parameters:
   #     useDirectory:
